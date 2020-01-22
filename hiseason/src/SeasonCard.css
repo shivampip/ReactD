@@ -1,0 +1,34 @@
+.card {
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.winter {
+  background-color: aliceblue;
+  color: black;
+}
+
+.summer {
+  background-color: orange;
+  color: black;
+}
+
+.loading {
+  background-color: black;
+  color: white;
+}
+
+.mainText {
+  display: inline-block;
+  font-size: 2rem;
+}
