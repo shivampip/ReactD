@@ -1,0 +1,17 @@
+.card{
+    margin: 20px 20% auto 20%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.inputLabel{
+    font-weight: bold;
+}
+
+.textIn{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
