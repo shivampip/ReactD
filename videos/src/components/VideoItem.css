@@ -1,0 +1,20 @@
+.video-item {
+  width: 350px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-item img {
+  width: 150px;
+  height: 100px;
+}
+
+.video-item label {
+  margin-left: 10px;
+  margin-right: 10px;
+}

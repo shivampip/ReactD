@@ -1,0 +1,20 @@
+.video-detail {
+  display: flex;
+  float: left;
+  width: 500px;
+  height: 500px;
+}
+
+.video-detail img {
+  width: 400px;
+  height: 300px;
+}
+
+.video-detail.title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.video-detail.description {
+  padding: 10px;
+}
