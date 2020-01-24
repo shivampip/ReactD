@@ -1,0 +1,11 @@
+.search-bar{
+    margin: 10px 10%;
+}
+
+.search-bar input{
+    display: table-cell;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
