@@ -14,6 +14,10 @@ class App extends React.Component {
     console.log(msg);
   }
 
+  componentDidMount() {
+    this.onSearch("shape of you");
+  }
+
   onVideoSelect = video => {
     this.print("You selected: " + video.snippet.title);
     this.print(video);
@@ -28,7 +32,10 @@ class App extends React.Component {
       }
     });
     this.print(response.data.items);
-    this.setState({ videos: response.data.items });
+    this.setState({
+      videos: response.data.items,
+      selectedVideo: response.data.items[0]
+    });
   };
   render() {
     return (
