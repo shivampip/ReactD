@@ -35,11 +35,15 @@ class App extends React.Component {
       <div>
         <SearchBar onSearch={this.onSearch} />
         <div className="content">
-          <VideoDetail video={this.state.selectedVideo} />
-          <ImageList
-            videos={this.state.videos}
-            onVideoSelect={this.onVideoSelect}
-          />
+          <div>
+            <VideoDetail video={this.state.selectedVideo} />
+          </div>
+          <div>
+            <ImageList
+              videos={this.state.videos}
+              onVideoSelect={this.onVideoSelect}
+            />
+          </div>
         </div>
       </div>
     );

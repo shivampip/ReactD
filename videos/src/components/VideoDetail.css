@@ -3,16 +3,13 @@
   float: left;
   width: 500px;
   height: 500px;
-}
-
-.video-detail img {
-  width: 400px;
-  height: 300px;
-}
-
-.video-detail.title {
   padding: 10px;
-  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.video-detail iframe {
+  width: 100%;
 }
 
 .video-detail.description {

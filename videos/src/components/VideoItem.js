@@ -10,7 +10,7 @@ class VideoItem extends React.Component {
     let video = this.props.video.snippet;
     return (
       <div className="video-item" onClick={this.onVideoSelect}>
-        <img src={video.thumbnails.medium.url} />
+        <img alt={video.title} src={video.thumbnails.medium.url} />
         <label>{video.title}</label>
       </div>
     );

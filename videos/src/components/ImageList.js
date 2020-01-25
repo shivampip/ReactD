@@ -7,7 +7,13 @@ class ImageList extends React.Component {
   };
   render() {
     let renderedList = this.props.videos.map(video => {
-      return <VideoItem video={video} onVideoSelect={this.onVideoSelect} />;
+      return (
+        <VideoItem
+          key={video.id.videoId}
+          video={video}
+          onVideoSelect={this.onVideoSelect}
+        />
+      );
     });
 
     return <div style={{ float: "right" }}>{renderedList}</div>;
